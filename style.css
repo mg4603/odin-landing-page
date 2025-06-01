@@ -171,3 +171,14 @@ body {
 .quote .section {
     width: 50vw;
 }
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100vw;
+    height: 5.5vw;
+}
