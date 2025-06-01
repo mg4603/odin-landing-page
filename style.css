@@ -76,7 +76,7 @@ body {
     margin-bottom: 40px;
 }
 
-.hero button {
+.order-btn {
     padding: 6px 24px;
     background-color: #3882F6;
     border-radius: 5px;
@@ -172,6 +172,19 @@ body {
     width: 50vw;
 }
 
+.call-to-action.section {
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px 0px;
+    color: #E5E7EB;
+    justify-content: space-around;
+    margin: 80px;
+    border-radius: 10px;
+}
+
+.call-to-action.section .order-btn {
+    border: 1px solid #F9FAF8;
+}
 
 .footer {
     display: flex;
