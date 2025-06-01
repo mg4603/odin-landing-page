@@ -131,6 +131,7 @@ body {
 .menu {
     display: flex;
     gap: 52px;
+    margin-bottom: 50px;
 }
 
 .menu  .cards {
@@ -152,4 +153,21 @@ body {
 .menu .cards .card a img {
     width: 100px;
     height: 100px;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.quote .section {
+    width: 50vw;
 }
