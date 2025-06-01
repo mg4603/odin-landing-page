@@ -5,6 +5,9 @@
 
 body {
     font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-hero {
@@ -12,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100vw;
 }
 .section {
     width: 75vw;
@@ -85,4 +89,67 @@ body {
     flex: 1;
     width: 300px;
     height: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    margin-top: 60px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.menu-header .right {
+    font-weight: 100;
+    font-size: 18px;
+    
+}
+
+.menu-header .right a {
+    color: #1F2937;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+}
+
+.menu-header .right a span {
+    text-decoration: underline;
+}
+
+.menu-header .right img {
+    width: 25px;
+}
+
+.menu {
+    display: flex;
+    gap: 52px;
+}
+
+.menu  .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .cards .card a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 16px;
+    color: #1F2937;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.menu .cards .card a img {
+    width: 100px;
+    height: 100px;
 }
